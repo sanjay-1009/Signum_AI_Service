@@ -1,0 +1,19 @@
+Claim Guidelines
+
+Claims should be submitted only for active policies.
+
+Provide the correct claim amount.
+
+Describe the incident clearly.
+
+Incorrect information may lead to claim rejection.
+
+Claims are reviewed by administrators.
+
+Possible Status
+
+Pending
+
+Approved
+
+Rejected

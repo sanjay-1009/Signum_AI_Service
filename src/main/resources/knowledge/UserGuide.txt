@@ -1,0 +1,34 @@
+User Guide
+
+Login
+
+Open Dashboard.
+
+Dashboard
+
+View active policies.
+
+My Policies
+
+View policy details.
+
+Submit Claim
+
+Choose policy.
+Click Submit Claim.
+Enter claim amount.
+Choose incident date.
+Describe incident.
+Submit.
+
+Track Claims
+
+Open My Claims.
+
+View
+
+Pending
+
+Approved
+
+Rejected

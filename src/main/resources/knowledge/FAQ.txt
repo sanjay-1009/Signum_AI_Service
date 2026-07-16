@@ -1,0 +1,33 @@
+Frequently Asked Questions
+
+How do I submit a claim?
+
+Open My Policies.
+Select your policy.
+Click Submit Claim.
+Fill the form.
+Submit.
+
+Where can I check my claim?
+
+Dashboard
+Track Claims
+My Claims
+
+Who approves claims?
+
+Only administrators.
+
+Can I edit my submitted claim?
+
+No.
+
+Can I purchase a new policy?
+
+No.
+Policies are assigned by the administrator.
+
+Can I pay premiums?
+
+No.
+Premium payment is not available.

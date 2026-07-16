@@ -1,0 +1,28 @@
+Insurance Terms
+
+Policy
+An insurance agreement.
+
+Premium
+Amount paid to maintain insurance.
+
+Coverage
+Maximum protection amount.
+
+Claim
+A request for insurance compensation.
+
+Maturity Amount
+Amount received after policy completion.
+
+Nominee
+Person who receives policy benefits.
+
+Life Insurance
+Protects family financially.
+
+Health Insurance
+Covers medical expenses.
+
+Vehicle Insurance
+Covers accidental vehicle damage.

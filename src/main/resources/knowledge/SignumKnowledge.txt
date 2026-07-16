@@ -1,0 +1,39 @@
+SIGNUM INSURANCE CLAIM PROCESSING SYSTEM
+
+Signum is an insurance claim processing application.
+
+User Features
+
+Dashboard
+Displays user's active insurance policies.
+
+My Policies
+Shows only policies purchased by the logged-in user.
+
+Submit Claim
+Users can submit a claim only from My Policies.
+
+My Claims
+Displays claim history.
+
+Claim Status
+Pending
+Approved
+Rejected
+
+AI Assistant
+Provides help about Signum features and insurance.
+
+Important
+
+There is no online payment.
+
+There is no premium payment feature.
+
+There is no claim status page.
+
+Claim status is available inside My Claims.
+
+Users cannot approve claims.
+
+Only administrators approve claims.
