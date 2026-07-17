@@ -11,7 +11,7 @@ import com.signum.ai.dto.PolicyAnalysisResponse;
 
 @RestController
 @RequestMapping("/ai")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://insurance-frontend-woad.vercel.app")
 public class AIController {
 
 	private final AIService aiService;

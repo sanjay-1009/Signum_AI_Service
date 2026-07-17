@@ -1,8 +1,12 @@
 package com.signum.ai.config;
 
+import java.util.List;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.cors.*;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 @Configuration
 public class CorsConfig {
@@ -12,11 +16,21 @@ public class CorsConfig {
 
         CorsConfiguration configuration = new CorsConfiguration();
 
-        configuration.addAllowedOrigin("http://localhost:3000");
+        configuration.setAllowedOrigins(List.of(
+                "https://insurance-frontend-woad.vercel.app"
+        ));
 
-        configuration.addAllowedMethod("*");
+        configuration.setAllowedMethods(List.of(
+                "GET",
+                "POST",
+                "PUT",
+                "DELETE",
+                "OPTIONS"
+        ));
 
-        configuration.addAllowedHeader("*");
+        configuration.setAllowedHeaders(List.of("*"));
+
+        configuration.setAllowCredentials(true);
 
         UrlBasedCorsConfigurationSource source =
                 new UrlBasedCorsConfigurationSource();
@@ -24,7 +38,5 @@ public class CorsConfig {
         source.registerCorsConfiguration("/**", configuration);
 
         return source;
-
     }
-
 }
