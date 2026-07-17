@@ -15,10 +15,12 @@ import com.signum.ai.dto.PolicyAnalysisResponse;
 public class AIController {
 
 	private final AIService aiService;
+	private final GroqService groqService;
 
-	public AIController(AIService aiService) {
+	public AIController(AIService aiService,GroqService groqService) {
 
 	    this.aiService = aiService;
+	    this.groqService = groqService;
 
 	}
 
@@ -42,6 +44,17 @@ public class AIController {
         return aiService.analyzePolicy(
                 request.getPolicyText());
 
+    }
+    @PostMapping("/advisor")
+    public ChatResponse advisor(@RequestBody ChatRequest request) {
+
+        String answer = groqService.askAI(request.getMessage());
+
+        return new ChatResponse(
+                answer,
+                "Advisor",
+                "ADVISOR"
+        );
     }
     
 
